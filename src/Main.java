@@ -109,7 +109,38 @@ public class Main {
 
         System.out.println("Маша теперь получает "+mashaSalary+" рублей. Годовой доход вырос на "+mashaMoneyPlus*12);
         System.out.println("Маша теперь получает "+denisSalary+" рублей. Годовой доход вырос на "+denisMoneyPlus*12);
-        System.out.println("Маша теперь получает "+kristinaSalary+" рублей. Годовой доход вырос на "+kristinaMoneyPlus*12);
+        System.out.println("Маша теперь получает "+kristinaSalary+" рублей. Годовой доход вырос на "+kristinaMoneyPlus*12+"\n");
+
+        //доп задача 6
+
+        int a1 = 12;
+        int b1 = 27;
+        int c1 = 44;
+        int d1 = 15;
+        int e1 = 9;
+
+        int result = a1*(b1+(c1-d1*e1));
+        System.out.println(result);
+        result=result*-1;
+        System.out.println(result+"\n");
+
+        //доп задача 7
+        int aa = 5;
+        int bb = 7;
+        aa = bb%aa;   //ну или просто aa = bb-aa;
+        bb = bb-aa;
+        aa = bb+aa;
+        System.out.println("aa="+aa);
+        System.out.println("bb="+bb+"\n");
+
+        //доп задача 8
+
+        int x = 168;
+        int y = x/100;
+        x=x/10;
+        y=y*10;
+        y=x-y;
+        System.out.println(y+"\n");
 
     }
 }
